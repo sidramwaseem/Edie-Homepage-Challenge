@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap");
+
+/*** Navbar ***/
+
+nav {
+  border: 2px solid red;
+  margin: 20px;
+}
+
+.navbar-brand {
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  color: #333;
+}
+
+#navbar .navbar-nav a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333;
+  margin-right: 15px;
+}
+
+#navbar .navbar-nav a:hover{
+  color: #828282;
+}
+
+/*** Header ***/
+
+.header {
+  border: 2px solid green;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.header p {
+  color: #2d9cdb;
+}
+
+.header h2 {
+  color: #333;
+}
+
+.block {
+  display: block;
+  line-height: 72px;
+}
+
+/*** Home Page ***/
+
+#home-section {
+  text-align: left;
+}
+
+.home-fig {
+  border: 2px solid purple;
+  max-width: 1300px;
+  width: 100%;
+  margin: 5px auto;
+}
+.home-fig img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.slogan-box {
+  border: 2px solid palegreen;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.slogan-box h2 {
+  font-weight: 500;
+}
+
+.slogan-box p {
+  border: 2px solid orange;
+  max-width: 360px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.form-group {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border-top: 2px solid rgb(77, 68, 46);
+  border-radius: 15px;
+}
+
+.form-group input{
+  border-radius: 12px;
+}
+
+.email-label{
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+  font-size:14px;
+  color:#828282;
+}
+
+.btn {
+  border-radius:12px;
+  background-color: #2d9cdb;
+}
+
+
+/*** Services Section ***/
+
+
+.services-container{
+  border: 2px solid blue;
+  margin: 50px auto;
+}
+
+.service-item{
+  /* border: 2px solid rgb(18, 94, 94); */
+  padding-top:50px;
+  padding-bottom:30px;
+  border-radius:24px;
+  margin: 40px auto;
+}
+
+.service-item:hover{
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  cursor: pointer;
+}
+
+.service-item button{
+  background-color: #e0e0e0;
+  color: #828282;
+  border: #e0e0e0;
+}
+
+.service-item:hover button{
+  background-color: #2d9cdb;
+  color: #fff;
+}
+
+.icon{
+  border: 2px solid brown;
+  padding:10px;
+  color:white;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+#icon-1{
+  background-color: #2d9cdb;
+}
+
+#icon-2{
+  background-color: #27ae60;
+}
+
+#icon-3{
+  background-color: #eb5757;
+}
+
