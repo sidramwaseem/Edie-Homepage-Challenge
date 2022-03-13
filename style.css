@@ -14,7 +14,7 @@ nav {
   color: #333;
 }
 
-#navbar .navbar-nav a{
+#navbar .navbar-nav a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
@@ -22,7 +22,7 @@ nav {
   margin-right: 15px;
 }
 
-#navbar .navbar-nav a:hover{
+#navbar .navbar-nav a:hover {
   color: #828282;
 }
 
@@ -90,73 +90,124 @@ nav {
   border-radius: 15px;
 }
 
-.form-group input{
+.form-group input {
   border-radius: 12px;
 }
 
-.email-label{
+.email-label {
   margin-top: 25px;
   font-family: "Poppins", sans-serif;
-  font-weight:500;
-  font-size:14px;
-  color:#828282;
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
 }
 
 .btn {
-  border-radius:12px;
+  border-radius: 12px;
   background-color: #2d9cdb;
 }
 
-
 /*** Services Section ***/
 
-
-.services-container{
+.services-container {
   border: 2px solid blue;
   margin: 50px auto;
 }
 
-.service-item{
+.service-item {
   /* border: 2px solid rgb(18, 94, 94); */
-  padding-top:50px;
-  padding-bottom:30px;
-  border-radius:24px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 24px;
   margin: 40px auto;
 }
 
-.service-item:hover{
+.service-item:hover {
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
   cursor: pointer;
 }
 
-.service-item button{
+.service-item button {
   background-color: #e0e0e0;
   color: #828282;
   border: #e0e0e0;
 }
 
-.service-item:hover button{
+.service-item:hover button {
   background-color: #2d9cdb;
   color: #fff;
 }
 
-.icon{
+.icon {
   border: 2px solid brown;
-  padding:10px;
-  color:white;
+  padding: 10px;
+  color: white;
   border-radius: 16px;
   margin-bottom: 30px;
 }
 
-#icon-1{
+#icon-1 {
   background-color: #2d9cdb;
 }
 
-#icon-2{
+#icon-2 {
   background-color: #27ae60;
 }
 
-#icon-3{
+#icon-3 {
   background-color: #eb5757;
+}
+
+/*** Work Section ***/
+
+#work-section h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size:36px;
+}
+
+.work-container {
+  border: 1px solid purple;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.work-fig {
+  border: 2px solid saddlebrown;
+  max-width: 545px;
+  margin: 10px auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.work-fig img {
+  width: 100%;
+}
+
+.work-fig figcaption {
+  font-size:14px;
+  color: #828282;
+}
+
+.work-fig h4{
+  color: #333;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.work-item {
+  border: 2px solid slateblue;
+  margin: 20px auto;
+}
+
+.more-margin-item {
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .more-margin-item {
+    margin-top: 20px;
+  }
 }
 
