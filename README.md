@@ -82,5 +82,5 @@ $ npm start
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/sidramwaseem)
-- Twitter [@your-twitter](https://twitter.com/sidramwaseem)
+- GitHub [sidramwaseem](https://github.com/sidramwaseem)
+- Twitter [sidramwaseem](https://twitter.com/sidramwaseem)
