@@ -3,7 +3,6 @@
 /*** Navbar ***/
 
 nav {
-  border: 2px solid red;
   margin: 20px;
 }
 
@@ -29,7 +28,6 @@ nav {
 /*** Header ***/
 
 .header {
-  border: 2px solid green;
   margin: 40px auto;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -55,7 +53,6 @@ nav {
 }
 
 .home-fig {
-  border: 2px solid purple;
   max-width: 1300px;
   width: 100%;
   margin: 5px auto;
@@ -66,7 +63,6 @@ nav {
 }
 
 .slogan-box {
-  border: 2px solid palegreen;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
@@ -77,7 +73,6 @@ nav {
 }
 
 .slogan-box p {
-  border: 2px solid orange;
   max-width: 360px;
   width: 100%;
   font-weight: 400;
@@ -110,7 +105,6 @@ nav {
 /*** Services Section ***/
 
 .services-container {
-  border: 2px solid blue;
   margin: 50px auto;
 }
 
@@ -139,7 +133,6 @@ nav {
 }
 
 .icon {
-  border: 2px solid brown;
   padding: 10px;
   color: white;
   border-radius: 16px;
@@ -167,14 +160,12 @@ nav {
 }
 
 .work-container {
-  border: 1px solid purple;
   width: 90%;
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
 .work-fig {
-  border: 2px solid saddlebrown;
   max-width: 545px;
   margin: 10px auto;
   font-family: "Poppins", sans-serif;
@@ -197,7 +188,6 @@ nav {
 }
 
 .work-item {
-  border: 2px solid slateblue;
   margin: 20px auto;
 }
 
@@ -225,7 +215,6 @@ nav {
 /*** Client Section ***/
 
 .client-container {
-  border: 2px solid red;
   font-family: "Poppins", sans-serif;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -233,7 +222,6 @@ nav {
 }
 
 .client-container p {
-  border: 2px solid yellow;
   max-width: 360px;
   width: 100%;
   font-weight: 400;
@@ -242,30 +230,29 @@ nav {
 }
 
 .client-item {
-  border: 2px solid maroon;
   margin: 20px auto;
- }
+}
 
- .client-item h5{
-   font-weight: 500;
-   color: #eb5757;
-   font-size:18px;
- }
+.client-item h5 {
+  font-weight: 500;
+  color: #eb5757;
+  font-size: 18px;
+}
 
- .client-item h4{
-   color: #333;
-   font-size:36px;
- }
+.client-item h4 {
+  color: #333;
+  font-size: 36px;
+}
 
- .client-item .block{
-   line-height:45px;
- }
+.client-item .block {
+  line-height: 45px;
+}
 
-.client-grid{
-  display:grid;
+.client-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  justify-content:center;
+  justify-content: center;
 }
 .client-item img {
   max-width: 160px;
@@ -285,56 +272,52 @@ nav {
 #client-3 {
   grid-column: 1 / 2;
   grid-row: 2/3;
-
 }
 
-.tweet{
-  border: 2px solid purple;
+.tweet {
   margin-top: 30px;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 
-.tweet h5{
+.tweet h5 {
   color: #333;
-  font-size:36px;
+  font-size: 36px;
 }
 
-.tweet .block{
-  line-height:45px ;
+.tweet .block {
+  line-height: 45px;
 }
 
-.tweet img{
+.tweet img {
   max-width: 100px;
-  border-radius:24px ;
+  border-radius: 24px;
 }
 
-.profile{
-  border: 2px solid green;
-  display:flex;
+.profile {
+  display: flex;
   margin-top: 40px;
   padding-top: 20px;
-  flex-direction:row;
+  flex-direction: row;
   align-items: center;
 }
 
-.profile p{
- margin: 10px;
- line-height:0px;
- color:#333;
- size:24px;
+.profile p {
+  margin: 10px;
+  line-height: 0px;
+  color: #333;
+  size: 24px;
 }
 
-.profile span{
+.profile span {
   color: #828282;
   size: 18px;
 }
 
-
 /*** Footer Section ***/
 
-footer{
+footer {
   background-color: #100e1d;
   padding-top: 30px;
   padding-bottom: 90px;
@@ -344,56 +327,50 @@ footer{
   text-align: left;
 }
 
-.footer-container{
-  border:2px solid #fff;
-}
-
-.footer-item{
-  margin:10px auto;
+.footer-item {
+  margin: 10px auto;
   text-align: left;
-  border: 2px solid red;
 }
 
-footer h5{
-  font-family: 'Heebo', sans-serif;
+footer h5 {
+  font-family: "Heebo", sans-serif;
   font-weight: 800;
-  font-size:36px;
+  font-size: 36px;
 }
 
-footer figure img{
-  margin-right:5px;
+footer figure img {
+  margin-right: 5px;
 }
 
-footer figure img:hover{
+footer figure img:hover {
   cursor: pointer;
 }
 
-footer ul{
+footer ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-footer ul li a{
-  color: #FFF;
+footer ul li a {
+  color: #fff;
   font-weight: 400;
-  font-size:18px;
+  font-size: 18px;
 }
 
-footer ul li{
+footer ul li {
   margin-top: 6px;
 }
 
-footer ul li a:hover{
-  color: #FFF;
+footer ul li a:hover {
+  color: #fff;
   border-bottom: 2px solid #fff;
   text-decoration: none;
 }
 
-
-footer .email-label{
+footer .email-label {
   color: #f2f2f2;
-  font-size:14px;
+  font-size: 14px;
   margin-top: 0;
   padding-top: 0;
 }
